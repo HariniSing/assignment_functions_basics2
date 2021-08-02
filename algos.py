@@ -39,8 +39,8 @@ def values_greater_than_second(numvalues):
                 newlist.append(numvalues[i])
         print(len(newlist))
         return newlist
-a= values_greater_than_second([5,2,3,2,1,4])
-print(a)
+outlist= values_greater_than_second([5,2,3,2,1,4])
+print(outlist)
 
 
 # This Length, That Value - Write a function that accepts two integers as parameters: size and value. The function should create and return a list whose length is equal to the given size, and whose values are all the given value.
@@ -53,7 +53,6 @@ def length_and_value(size,value):
         newlist.append(value)
     return newlist
 
-a = length_and_value(4,10)
-print(a)
- 
+outList = length_and_value(4,10)
+print(outList)
             
